@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (5.1.0)
+  - AlignedCollectionViewFlowLayout (1.1.2)
+  - CryptoSwift (1.3.1)
+  - Kingfisher (4.10.1)
+  - ObjectMapper (4.2.0)
+  - Realm (4.4.0):
+    - Realm/Headers (= 4.4.0)
+  - Realm/Headers (4.4.0)
+  - RealmSwift (4.4.0):
+    - Realm (= 4.4.0)
+  - SideMenu (6.4.9)
+  - SwiftyBootpay (3.2.47):
+    - Alamofire (~> 5.1.0)
+    - CryptoSwift
+    - ObjectMapper
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - AlignedCollectionViewFlowLayout
+  - Kingfisher (~> 4.7)
+  - RealmSwift
+  - SideMenu (~> 6.0)
+  - SwiftyBootpay (~> 3.2.7)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlignedCollectionViewFlowLayout
+    - CryptoSwift
+    - Kingfisher
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+    - SideMenu
+    - SwiftyBootpay
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  AlignedCollectionViewFlowLayout: ee2ef451e741ec08f8e0967d828001e2f051c20a
+  CryptoSwift: f12f037f6d0fcd6d48c96db0071b653de64e6c4d
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Realm: e125f464884cda953ebefe70c671b75b03b81b9b
+  RealmSwift: 33656a42bd300959a081fc13347376bc478071af
+  SideMenu: 8ef57a3cfc024a2d3fc1c036c7fe98537baec9e0
+  SwiftyBootpay: a0edb70454d179d5f42dc705b79c7fd9638b66cb
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: e32ffdb20871d794f6e623a86c259f71d4e8e4dd
+
+COCOAPODS: 1.9.1
