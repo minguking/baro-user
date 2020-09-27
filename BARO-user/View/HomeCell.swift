@@ -11,13 +11,37 @@ class HomeCell: UICollectionViewCell {
     
     // MARK: - Properties
     
+    let imageView: UIImageView = {
+        let iv = UIImageView()
+        iv.contentMode = .scaleToFill
+        iv.backgroundColor = .white
+        iv.setDimensions(width: 48, height: 48)
+        iv.clipsToBounds = true
+        iv.layer.cornerRadius = 48 / 2
+        return iv
+    }()
+    
+    let textLabel: UILabel = {
+        let text = UILabel()
+        text.textAlignment = .center
+        return text
+    }()
+    
     
     // MARK: - Lifecycle
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        backgroundColor = .green
+//        backgroundColor = .green
+        
+        addSubview(imageView)
+        imageView.anchor(top: topAnchor, left: leftAnchor, right: rightAnchor, height: 48)
+        
+        addSubview(textLabel)
+        textLabel.anchor(top:imageView.bottomAnchor, left: leftAnchor, bottom: bottomAnchor, right: rightAnchor)
+        
+        imageView.backgroundColor = .yellow
     }
     
     required init?(coder: NSCoder) {

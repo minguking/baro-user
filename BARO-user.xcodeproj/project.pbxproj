@@ -22,6 +22,9 @@
 		3D4A00C6251B177C00706F08 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A00C5251B177C00706F08 /* NetworkModel.swift */; };
 		3D4A00C9251B19CB00706F08 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A00C8251B19CB00706F08 /* HomeHeader.swift */; };
 		3D4A00CC251B1AE800706F08 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A00CB251B1AE800706F08 /* HomeCell.swift */; };
+		3D4A00CF251B24B100706F08 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A00CE251B24B100706F08 /* StoreModel.swift */; };
+		3D4A00D2251B305B00706F08 /* HomeHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A00D1251B305B00706F08 /* HomeHeaderCell.swift */; };
+		3D4A00D5251B437900706F08 /* HomeCustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4A00D4251B437800706F08 /* HomeCustomNavigationView.swift */; };
 		D947E6D51D14BFA2542849C7 /* Pods_BARO_user.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC4B5CC38A62BADA38BCB9B /* Pods_BARO_user.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,9 @@
 		3D4A00C5251B177C00706F08 /* NetworkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		3D4A00C8251B19CB00706F08 /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
 		3D4A00CB251B1AE800706F08 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		3D4A00CE251B24B100706F08 /* StoreModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		3D4A00D1251B305B00706F08 /* HomeHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderCell.swift; sourceTree = "<group>"; };
+		3D4A00D4251B437800706F08 /* HomeCustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCustomNavigationView.swift; sourceTree = "<group>"; };
 		98FC6165C29D3BE9587D39B1 /* Pods-BARO-user.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BARO-user.debug.xcconfig"; path = "Target Support Files/Pods-BARO-user/Pods-BARO-user.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				3D4A00C5251B177C00706F08 /* NetworkModel.swift */,
+				3D4A00CE251B24B100706F08 /* StoreModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -129,7 +136,9 @@
 		3D4A008B251B069A00706F08 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3D4A00D4251B437800706F08 /* HomeCustomNavigationView.swift */,
 				3D4A00C8251B19CB00706F08 /* HomeHeader.swift */,
+				3D4A00D1251B305B00706F08 /* HomeHeaderCell.swift */,
 				3D4A00CB251B1AE800706F08 /* HomeCell.swift */,
 			);
 			path = View;
@@ -274,9 +283,12 @@
 			files = (
 				3D4A00A0251B119C00706F08 /* Extension.swift in Sources */,
 				3D4A0079251B052B00706F08 /* MainTabController.swift in Sources */,
+				3D4A00D5251B437900706F08 /* HomeCustomNavigationView.swift in Sources */,
 				3D4A0075251B052A00706F08 /* AppDelegate.swift in Sources */,
 				3D4A0098251B078F00706F08 /* OrderHistoryViewController.swift in Sources */,
 				3D4A0077251B052B00706F08 /* SceneDelegate.swift in Sources */,
+				3D4A00D2251B305B00706F08 /* HomeHeaderCell.swift in Sources */,
+				3D4A00CF251B24B100706F08 /* StoreModel.swift in Sources */,
 				3D4A008E251B06FD00706F08 /* HomeViewController.swift in Sources */,
 				3D4A0095251B077900706F08 /* OrderStatusViewController.swift in Sources */,
 				3D4A0092251B074100706F08 /* BookmarkViewController.swift in Sources */,

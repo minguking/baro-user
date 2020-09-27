@@ -13,5 +13,6 @@ target 'BARO-user' do
   pod 'RealmSwift'
   pod 'SideMenu', '~> 6.0'
   pod "AlignedCollectionViewFlowLayout"
+  pod 'KituraKit'
 
 end

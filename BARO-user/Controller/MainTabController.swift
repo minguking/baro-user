@@ -25,10 +25,9 @@ class MainTabController: UITabBarController {
     
     func configureViewControllers() {
         
-        let home = HomeViewController(collectionViewLayout: UICollectionViewFlowLayout())
+        let home = HomeViewController()
         let nav1 = templateNavController(home, image: UIImage(named: "홈 off"))
         nav1.tabBarItem.image = UIImage(systemName: "person")
-        
         
         let Bookmark = BookmarkViewController()
         let nav2 = templateNavController(Bookmark, image: UIImage(named: "찜 off"))
@@ -47,6 +46,7 @@ class MainTabController: UITabBarController {
         nav5.tabBarItem.image = UIImage(systemName: "person")
         
         viewControllers = [nav1, nav2, nav3, nav4, nav5]
+        
     }
     
     func templateNavController(_ rootViewController: UIViewController, image: UIImage?) -> UINavigationController {
